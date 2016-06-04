@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root to: 'visitors#new'  # in 'views' path
-
+  resources :contacts, only: [:new, :create]
+  root to: 'visitors#new' # in 'views' path
 end
