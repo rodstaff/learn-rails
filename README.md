@@ -1,9 +1,8 @@
-== README
+# Learn Ruby on Rails
+  Book 2, by David Kehoe
+  includes:  Newsletter Web App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This tutorial covers:
 
 * Ruby version
 
@@ -22,7 +21,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+.
