@@ -2,7 +2,7 @@
   Book 2, by David Kehoe
   includes:  Newsletter Web App
 
-This tutorial covers:
+This small project-tutorial covers:
 
 * Ruby version
 
