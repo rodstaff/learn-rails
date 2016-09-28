@@ -10,7 +10,8 @@
 
 <section>
   <div class="column">
-    <h3>Thank you for visiting:  Stay in touch!</h3>
+    <h4>Welcome to Panacea!</h4>  
+    <p>We are planning to list a collection of funny and catchy anecdotes from people like you who feel that everyone around the city is getting a little bit too busy and too tired.  Launch date not so soon, tbd.</p>
   </div>
   
   <div class="column">
@@ -19,7 +20,7 @@
     <%= simple_form_for @visitor do |f| %>
       <%= f.error_notification %>
       <%= f.input :email, label: false, :placeholder => 'Your email address...' %> <br/>
-      <%= f.button :submit, "Sign up for the newsletter", :class => "submit" %>
+      <%= f.button :submit, "Sign up for future subscription", :class => "submit" %>
     <% end %>
 
     </div>

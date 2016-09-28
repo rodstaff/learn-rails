@@ -1,4 +1,7 @@
-<% content_for :title do %>Contact<% end %> <h3>Contact me by email</h3>
+<% content_for :title do %>Contact<% end %> 
+<br/>
+<p>Send your short and funny story below (max 1000 words).  Note:  This is an experimental site.  No compensation will be offered for your story and you may or may not be contacted back.  There is also no guarantee that your contribution will be published here or at any other site.  Submit at your discretion.  Thank you!</p>
+
 <div class="form">
 <%= simple_form_for @contact do |form| %> <%= form.error_notification %>
 <%= form.input :name, autofocus: true %> 
